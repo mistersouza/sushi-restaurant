@@ -1,5 +1,4 @@
 .subscribe {
-    display: flex;
     flex-direction: column;
     overflow: hidden;
     
@@ -34,7 +33,7 @@
     color: #fff;
 
     background: var(--black-400);
-    
+
     border: none;
     outline: none;
     border-radius: 46px;
