@@ -5,7 +5,8 @@
    background-color: var(--color-white);
 
    flex-wrap: wrap;
-   gap: 1.25rem;
+   align-items: center;
+   gap: 2.5rem;
    overflow: hidden;
 }
 
@@ -26,9 +27,12 @@
 .footer ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
 
     list-style: none;
+}
+
+.footer ul:not(last-child) {
+    gap: 4rem;
 }
 
 .footer__nav li {
